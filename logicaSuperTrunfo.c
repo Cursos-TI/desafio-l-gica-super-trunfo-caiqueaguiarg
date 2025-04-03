@@ -12,7 +12,7 @@ int main(){
 
 
     switch (opcao){
-        case 1:
+        case 1:{
             int carta1 = 1;
             char estadoC1;
             char codigoCartaC1[4], nomeCidadeC1[25];
@@ -223,7 +223,7 @@ int main(){
                 default:
                 break;
             }
-
+        }
         break;
         case 2:
             printf("\nRegra do Jogo: \n");
